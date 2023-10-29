@@ -2,15 +2,15 @@
     <div class="page-wrapper">
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar2">
-            <div class="logo" >
+            <div class="logo" style="background: #00682c;">
                 <a href="#">
-                    <h3 style="color: rgb(252, 250, 250);">Pendeteksi Stunting</h3>
+                    <h3 style="color: rgb(252, 250, 250);">DIAGNOSA</h3>
                 </a>
             </div>
             <div class="menu-sidebar2__content js-scrollbar1">
                 <div class="account2">
                 <div class="image img-cir img-120">
-                <img src="<?php echo base_url() ?>assets/home/images/stunting.jpg" alt="John Doe" />
+                <img src="<?php echo base_url() ?>assets/images/logo.png" alt="John Doe" />
                 </div>
 
                     <h4 class="name"><?php echo $username;?></h4>
@@ -25,20 +25,20 @@
                                 <i class="fas fa-tachometer-alt"></i>Dashboard
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="<?php echo base_url('administrator/stunting/informasi') ?>">
-                                <i class="fas fa-info-circle"></i> Informasi Stunting</a>
-                        </li>
+                                <i class="fas fa-info-circle"></i> Data Batita</a>
+                        </li> -->
                     
                         <?php if($level == "Admin"){ ?>
                         <li>
                             <a href="<?php echo base_url('administrator/stunting') ?>">
-                                <i class="fas fa-group"></i>Data Stunting</a>
+                                <i class="fas fa-group"></i>Data Batita</a>
                         </li>
 
                         <li class="has-sub">
                                 <a class="js-arrow" href="#">
-                                    <i class="fas fa-copy"></i>Laporan
+                                    <i class="fas fa-copy"></i>Penentuan Status Gizi
                                     <span class="arrow">
                                         <i class="fas fa-angle-down"></i>
                                     </span>
@@ -128,13 +128,13 @@
         <!-- PAGE CONTAINER-->
         <div class="page-container2">
             <!-- HEADER DESKTOP-->
-            <header class="header-desktop2" style="background: blue;">
+            <header class="header-desktop2" style="background: green;">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="header-wrap2">
                             <div class="logo d-block d-lg-none">
                                 <a href="#">
-                                <h3 style="color: rgb(252, 250, 250);">Pendeteksi Stunting</h3>
+                                <h3 style="color: rgb(252, 250, 250);">Diagnosa Gizi</h3>
                                 </a>
                             </div>
                             <div class="header-button2">

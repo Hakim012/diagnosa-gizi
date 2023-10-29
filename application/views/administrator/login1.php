@@ -8,11 +8,11 @@
     <meta name="description" content="au theme template">
     <meta name="author" content="Hau Nguyen">
     <meta name="keywords" content="au theme template">
-    <link rel="icon" href="<?php echo base_url() ?>assets/home/images/stunting.jpg">
+    <link rel="icon" href="<?php echo base_url() ?>assets/images/logo.png">
 
 
     <!-- Title Page-->
-    <title>Pendeteksi Stunting</title>
+    <title>Diagnosa Gizi</title>
 
     <!-- Fontfaces CSS-->
     <link href="<?php echo base_url() ?>assets/css/font-face.css" rel="stylesheet" media="all">
@@ -42,17 +42,17 @@
     <div class="page-wrapper">
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar2">
-            <div class="logo" >
+            <div class="logo" style="background: #00682c;">
                 <a href="#">
-                    <h1 style="color: rgb(252, 250, 250);">STUNTING</h1>
+                    <h1 style="color: rgb(252, 250, 250);">DIAGNOSA</h1>
                 </a>
             </div>
             <div class="menu-sidebar2__content js-scrollbar1">
                 <div class="account2">
                     <div class="image img-cir img-150">
-                        <img src="<?php echo base_url() ?>assets/home/images/stunting.jpg" alt="John Doe" />
+                        <img src="<?php echo base_url() ?>assets/images/logo.png" alt="John Doe" />
                     </div>
-                    <center><h4 class="name">Aplikasi Pendeteksi Stunting</h4></center>
+                    <center><h4 class="name">Dinas Kesehatan UPT Puskesmas Bengkalis</h4></center>
                 </div>
                 <nav class="navbar-sidebar2">
                     <!-- <center> 
@@ -63,7 +63,7 @@
                         <li>
                         <p href="#">Fax. (0766) 21441</p>
                         <li></center> -->
-                        <center><a href="#">cegahstunting@yahoo.co.id</a></center>
+                        <center><a href="#">pkmbengkalis@gmail.com</a></center>
                 </nav>
             </div>
         </aside>
@@ -72,7 +72,7 @@
         <!-- PAGE CONTAINER-->
         <div class="page-container2">
             <!-- HEADER DESKTOP-->
-            <header class="header-desktop2" >
+            <header class="header-desktop2" style="background: green;">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="header-wrap2">
@@ -106,9 +106,9 @@
                 <div class="menu-sidebar2__content js-scrollbar2">
                     <div class="account2">
                         <div class="image img-cir img-120">
-                            <img src="<?php echo base_url() ?>assets/home/images/stunting.jpg" alt="John Doe" />
+                            <img src="<?php echo base_url() ?>assets/images/logo.png" alt="John Doe" />
                         </div>
-                        <center><h4 class="name">Aplikasi Pendeteksi Stunting</h4></center>
+                        <center><h4 class="name">Dinas Kesehatan UPT Puskesmas Bengkalis</h4></center>
                     </div>
                     <nav class="navbar-sidebar2">
                         <ul class="list-unstyled navbar__list">
@@ -120,7 +120,7 @@
                         <li>
                         <p href="#">Fax. (0766) 21441</p>
                         <li></center> -->
-                        <center><a href="#">cegahstunting@yahoo.co.id</a></center>
+                        <center><a href="#">pkmbengkalis@gmail.com</a></center>
                         </ul>
                     </nav>
                 </div>
@@ -143,10 +143,10 @@
                                             <li class="list-inline-item seprate">
                                                 <span>/</span>
                                             </li>
-                                            <li class="list-inline-item">Login Stunting</li>
+                                            <li class="list-inline-item">Login</li>
                                         </ul>
                                     </div>
-                                    <button class="au-btn au-btn-icon au-btn--blue">
+                                    <button class="au-btn au-btn-icon au-btn--green">
                                         Mulai</button>
                                 </div>
                             </div>
@@ -161,7 +161,7 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="card">
-                            <div class="card-header text-primary"><b>Form Login</b></div>
+                            <div class="card-header text-success"><b>Form Login</b></div>
                             <div class="card-body card-block">
                                 <form action="<?php echo base_url('administrator/auth/proses_login')?>" method="post" class="">
                                 <?php echo $this->session->flashdata('pesan')?>
@@ -186,7 +186,7 @@
 
                                     <br>
                                     <div class="form-actions form-group">
-                                        <button type="submit" class="btn btn-primary btn-sm">SUBMIT</button>
+                                        <button type="submit" class="btn btn-success btn-sm">SUBMIT</button>
                                     </div>
                                     </p> Belum punya akun ?
                                     <a href="<?php echo base_url('auth/registrasi')?>" class="btn btn-primary btn-warning btn-sm" > Registrasi  </a>
@@ -206,7 +206,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="copyright">
-                                <p>Copyright © 2022 <a href="https://www.pendeteksistunting.com/">Pendeteksi Stunting</a>. All rights reserved.</p>
+                                <p>Copyright © 2023 <a href="https://www.diagnosagizi.com/">Diagnosa Gizi</a>. All rights reserved.</p>
                             </div>
                         </div>
                     </div>
