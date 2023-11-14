@@ -12,7 +12,7 @@
 
 
     <!-- Title Page-->
-    <title>Diagnosa Gizi</title>
+    <title>Klasifikasi Gizi</title>
 
     <!-- Fontfaces CSS-->
     <link href="<?php echo base_url() ?>assets/css/font-face.css" rel="stylesheet" media="all">
@@ -34,6 +34,9 @@
     <link href="<?php echo base_url() ?>assets/vendor/vector-map/jqvmap.min.css" rel="stylesheet" media="all">
     <link href="<?php echo base_url() ?>assets/css/sb-admin-2.min.css" rel="stylesheet">
 
+	<!-- <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">    -->
+	<link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css"></style>
+	
     <!-- Main CSS-->
     <link href="<?php echo base_url() ?>assets/css/theme.css" rel="stylesheet" media="all">
 
